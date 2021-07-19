@@ -1,0 +1,19 @@
+{
+  "name": "governance-notifier",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tornadocash/governance-notifier"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.4.1",
+    "telegraf": "^3.3.0"
+  }
+}
